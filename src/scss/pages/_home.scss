@@ -7,6 +7,7 @@
     font-weight: bolder;
     position: relative;
     text-align: center;
+    pointer-events: none;
 }
 .background-text:before {
     content: "";
@@ -29,4 +30,23 @@
     .text-brand {
         font-size: 1.2rem;
     }
+}
+.svg-fullheight-line {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    height: 100vh;
+}
+.triggers {
+    position: absolute;
+    top: 50vh;
+}
+.svg-circle-in-line {
+    position: absolute;
+    left: calc(40vw - 2.5vh);
+    height: 5vh;
+    top: 45vh;
+}
+body {
+    padding-bottom: 100vh;
 }

@@ -407,7 +407,7 @@ template {
  */
 html {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
   font-size: 16px; }
 
 /**
@@ -493,12 +493,25 @@ body {
   position: absolute;
   width: 1px; }
 
+.cls-1 {
+  fill: none;
+  stroke: #10cfbd;
+  stroke-miterlimit: 10;
+  stroke-width: 2px; }
+
+.cls-2 {
+  fill: #10cfbd; }
+
+.cls-3 {
+  fill: #1a1a1a; }
+
 .background-text {
   font-size: 30rem;
   color: #f7f7f7;
   font-weight: bolder;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  pointer-events: none; }
 
 .background-text:before {
   content: "";
@@ -520,3 +533,22 @@ body {
   top: -20rem; }
   #title-text .text-brand {
     font-size: 1.2rem; }
+
+.svg-fullheight-line {
+  position: absolute;
+  top: 0;
+  left: 40vw;
+  height: 100vh; }
+
+.triggers {
+  position: absolute;
+  top: 50vh; }
+
+.svg-circle-in-line {
+  position: absolute;
+  left: calc(40vw - 2.5vh);
+  height: 5vh;
+  top: 45vh; }
+
+body {
+  padding-bottom: 100vh; }
