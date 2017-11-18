@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.background-text {
+    font-size: 30rem;
+    color: $light-grey;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+}
+.background-text:before {
+    content: "";
+    margin-left: -100%;
+}
+.background-text:after {
+    content: "";
+    margin-right: -100%;
+}
+.text-brand {
+    color: $brand-color;
+}
+#title-text {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.3rem;
+    position: relative;
+    left: 10rem;
+    top: -20rem;
+    .text-brand {
+        font-size: 0.8rem;
+    }
+}
