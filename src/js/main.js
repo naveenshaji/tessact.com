@@ -29,24 +29,39 @@ $(document).ready(function () {
             strokeDashoffset: $LINE1_LENGTH * (1-0.9/7.0),
             ease: Linear.easeNone
         }));
+
+    var tween3 = new  TimelineMax()
+        .add(TweenMax.to($('.background-text'), 1, {
+            y: 400,
+            ease: Linear.easeNone
+        }));
         
 
     var scene = new ScrollMagic.Scene({
             triggerElement: '#trigger1',
-            duration: 500,
-            tweenChanges: true
+            duration: 200,
+            tweenChanges: false
         })
-        .setPin('.section-main')
         .setTween(tween)
         .addIndicators()
         .addTo(controller);
 
     var scene2 = new ScrollMagic.Scene({
             triggerElement: '#trigger2',
-            duration: 1000,
-            tweenChanges: true
+            duration: 500,
+            offset: 190,
+            tweenChanges: false
         })
         .setTween(tween2)
+        .addIndicators()
+        .addTo(controller);
+
+    var scene3 = new ScrollMagic.Scene({
+            triggerElement: '#trigger3',
+            duration: 800,
+            tweenChanges: false
+        })
+        .setTween(tween3)
         .addIndicators()
         .addTo(controller);
 
