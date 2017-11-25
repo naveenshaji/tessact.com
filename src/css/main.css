@@ -443,7 +443,7 @@ body {
   color: #777777;
   line-height: 1.8vw; }
 
-.pcolor {
+.pcolor, .text-brand {
   color: #10cfbd; }
 
 /**
@@ -501,6 +501,10 @@ body {
   position: absolute;
   width: 1px; }
 
+.triggers {
+  position: absolute;
+  top: 50vh; }
+
 .triggers div {
   position: relative; }
 
@@ -545,9 +549,6 @@ body {
   top: 18vw;
   font-size: 32vw; }
 
-.text-brand {
-  color: #10cfbd; }
-
 .title-text {
   font-weight: bold;
   font-size: 3vw;
@@ -572,10 +573,6 @@ body {
   left: 0;
   width: 100vw; }
 
-.triggers {
-  position: absolute;
-  top: 50vh; }
-
 .svg-circle-in-line, .svg-circle-in-line2 {
   position: absolute;
   left: 31.75vw;
@@ -590,7 +587,11 @@ body {
   position: absolute;
   width: 30vw;
   right: 21vw;
-  top: 75vw; }
+  top: 95vw; }
+
+.svgs {
+  position: absolute;
+  top: 0; }
 
 body {
   padding-bottom: 100vh; }
