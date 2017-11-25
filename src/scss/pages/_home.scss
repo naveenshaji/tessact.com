@@ -18,10 +18,16 @@
     content: "";
     margin-right: -100%;
 }
+
+.background-text-about-us {
+    @extend .background-text;
+    top: 18vw;
+    font-size: 32vw;
+}
 .text-brand {
     color: $brand-color;
 }
-#title-text {
+.title-text {
     font-weight: bold;
     font-size: 3vw;
     line-height: 1.6vw;
@@ -30,6 +36,15 @@
     top: 25vw;
     .text-brand {
         font-size: 1.2vw;
+    }
+}
+.text-about-us {
+    left: 49vw;
+    top: 69vw;
+    font-size: 2vw;
+    line-height: 1.3vw;
+    .text-brand {
+        font-size: 0.9vw;
     }
 }
 .svg-fullheight-line {
@@ -47,6 +62,17 @@
     left: 31.75vw;
     height: 4vw;
     top: 24.4vw;
+}
+.svg-circle-in-line2 {
+    @extend .svg-circle-in-line;
+    top: 68vw;
+    left: 62.84vw;
+}
+.body-text-about-tessact {
+    position: absolute;
+    width: 30vw;
+    right: 21vw;
+    top: 75vw;
 }
 body {
     padding-bottom: 100vh;

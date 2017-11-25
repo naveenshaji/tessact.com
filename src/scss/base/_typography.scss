@@ -5,3 +5,11 @@ body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
 }
+.body-text {
+  font-size: 1vw;
+  color: #777777;
+  line-height: 1.8vw;
+}
+.pcolor {
+  color: $brand-color;
+}
