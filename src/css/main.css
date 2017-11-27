@@ -438,6 +438,22 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue", "Helvetica", sans-serif; }
 
+.background-text {
+  font-size: 27vw;
+  color: #f7f7f7;
+  font-weight: bolder;
+  position: absolute;
+  text-align: center;
+  pointer-events: none; }
+
+.background-text:before {
+  content: "";
+  margin-left: -100%; }
+
+.background-text:after {
+  content: "";
+  margin-right: -100%; }
+
 .body-text {
   font-size: 1vw;
   color: #777777;
@@ -528,26 +544,23 @@ body {
 .cls-32 {
   fill: #1a1a1a; }
 
-.background-text, .background-text-about-us {
-  font-size: 27vw;
-  color: #f7f7f7;
-  font-weight: bolder;
-  position: relative;
-  text-align: center;
-  pointer-events: none;
-  top: 8vw; }
+.cls-23 {
+  fill: #10cfbd; }
 
-.background-text:before, .background-text-about-us:before {
-  content: "";
-  margin-left: -100%; }
+.cls-33 {
+  fill: #1a1a1a; }
 
-.background-text:after, .background-text-about-us:after {
-  content: "";
-  margin-right: -100%; }
+.background-text-tessact {
+  top: 8vw;
+  font-size: 24vw; }
 
 .background-text-about-us {
-  top: 18vw;
-  font-size: 32vw; }
+  top: 50vw;
+  font-size: 29vw; }
+
+.background-text-features {
+  top: 100vw;
+  font-size: 20.5vw; }
 
 .title-text {
   font-weight: bold;
@@ -573,7 +586,7 @@ body {
   left: 0;
   width: 100vw; }
 
-.svg-circle-in-line, .svg-circle-in-line2 {
+.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3 {
   position: absolute;
   left: 31.75vw;
   height: 4vw;
@@ -582,6 +595,10 @@ body {
 .svg-circle-in-line2 {
   top: 68vw;
   left: 62.84vw; }
+
+.svg-circle-in-line3 {
+  top: 118vw;
+  left: 31.64vw; }
 
 .body-text-about-tessact {
   position: absolute;
@@ -595,3 +612,7 @@ body {
 
 body {
   padding-bottom: 100vh; }
+
+.text-features {
+  top: 119.4vw;
+  left: 40vw; }

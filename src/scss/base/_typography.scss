@@ -5,6 +5,22 @@ body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
 }
+.background-text {
+  font-size: 27vw;
+  color: $light-grey;
+  font-weight: bolder;
+  position: absolute;
+  text-align: center;
+  pointer-events: none;
+}
+.background-text:before {
+  content: "";
+  margin-left: -100%;
+}
+.background-text:after {
+  content: "";
+  margin-right: -100%;
+}
 .body-text {
   font-size: 1vw;
   color: #777777;

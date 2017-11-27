@@ -1,28 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
-.background-text {
-    font-size: 27vw;
-    color: $light-grey;
-    font-weight: bolder;
-    position: relative;
-    text-align: center;
-    pointer-events: none;
+.background-text-tessact {
     top: 8vw;
+    font-size: 24vw;
 }
-.background-text:before {
-    content: "";
-    margin-left: -100%;
-}
-.background-text:after {
-    content: "";
-    margin-right: -100%;
-}
-
 .background-text-about-us {
-    @extend .background-text;
-    top: 18vw;
-    font-size: 32vw;
+    top: 50vw;
+    font-size: 29vw;
+}
+.background-text-features {
+    top: 100vw;
+    font-size: 20.5vw;
 }
 .title-text {
     font-weight: bold;
@@ -61,6 +50,11 @@
     top: 68vw;
     left: 62.84vw;
 }
+.svg-circle-in-line3 {
+    @extend .svg-circle-in-line;
+    top: 118vw;
+    left: 31.64vw;
+}
 .body-text-about-tessact {
     position: absolute;
     width: 30vw;
@@ -73,4 +67,8 @@
 }
 body {
     padding-bottom: 100vh;
+}
+.text-features {
+    top: 119.4vw;
+    left: 40vw;
 }
