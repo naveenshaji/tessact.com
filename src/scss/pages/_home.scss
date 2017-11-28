@@ -55,6 +55,11 @@
     top: 118vw;
     left: 31.64vw;
 }
+.svg-circle-in-line4 {
+    @extend .svg-circle-in-line;
+    top: 179.5vw;
+    left: 52.4vw;
+}
 .body-text-about-tessact {
     position: absolute;
     width: 30vw;
@@ -71,4 +76,31 @@ body {
 .text-features {
     top: 119.4vw;
     left: 40vw;
+}
+.features-items > div {
+    position: absolute;
+    top: 154vw;
+    transform: rotate(-45deg);
+    min-width: 200px;
+    text-align: right;
+    font-weight: bold;
+    color: #999;
+}
+.fitem1 {
+    left: 10vw;
+}
+.fitem2 {
+    left: 20vw;
+}
+.fitem3 {
+    left: 30vw;
+}
+.fitem4 {
+    left: 40vw;
+}
+.fitem5 {
+    left: 50vw;
+}
+.fitem6 {
+    left: 60vw;
 }
