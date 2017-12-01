@@ -14,7 +14,7 @@
     font-size: 20.5vw;
 }
 .background-text-use-cases {
-    top: 170vw;
+    top: 165vw;
     font-size: 20vw;
 }
 .title-text {
@@ -107,4 +107,22 @@ body {
 }
 .fitem6 {
     left: 60vw;
+}
+.images > img {
+    position: absolute;
+}
+.img-about {
+    width: 40vw;
+    top: 65vw;
+}
+.img-intsearch {
+    width: 40vw;
+    top: 132vw;
+    left: 30vw;
+}
+.img-trigger {
+    width: 40vw;
+    top: 181.5vw;
+    left: 40vw;
+    background: #fff;
 }

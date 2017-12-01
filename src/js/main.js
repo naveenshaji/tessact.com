@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var $SCALE = 900 / $(window).height();
+    var $SCALE = 1;
     var $line1 = $('.cls-1');
     var $LINE1_LENGTH = 19091.802734375;
     var $circleout1 = $('.cls-2');
