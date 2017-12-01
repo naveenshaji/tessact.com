@@ -568,6 +568,10 @@ body {
   top: 100vw;
   font-size: 20.5vw; }
 
+.background-text-use-cases {
+  top: 150vw;
+  font-size: 20vw; }
+
 .title-text {
   font-weight: bold;
   font-size: 3vw;
