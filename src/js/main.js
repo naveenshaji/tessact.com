@@ -168,11 +168,12 @@ $(document).ready(function () {
     var scene10 = new ScrollMagic.Scene({
         triggerElement: '#trigger10',
         duration: 400*$SCALE,
-        offset: 1100*$SCALE,
+        offset: 1000*$SCALE,
         tweenChanges: false
     })
     .setTween(new TweenMax.staggerFrom($('.fitem'), 1, {
-        left: "+=900"
+        left: "+=900",
+        ease: Linear.easeNone
     }, 0.2))
     .addIndicators()
     .addTo(controller);
@@ -201,12 +202,12 @@ $(document).ready(function () {
 
     var scene12 = new ScrollMagic.Scene({
         triggerElement: '#trigger12',
-        duration: 900*$SCALE,
-        offset: 1100*$SCALE,
+        duration: 800*$SCALE,
+        offset: 1400*$SCALE,
         tweenChanges: false
     })
     .setTween(new TweenMax.to($('.background-text-use-cases'), 1, {
-        y: 400*$SCALE,
+        y: 200*$SCALE,
         ease: Linear.easeNone
     }))
     .addIndicators()
