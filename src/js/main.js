@@ -120,7 +120,7 @@ $(document).ready(function () {
     var scene7 = new ScrollMagic.Scene({
         triggerElement: '#trigger7',
         duration: 1500*$SCALE,
-        offset: 200*$SCALE,
+        offset: 700*$SCALE,
         tweenChanges: false
     })
     .setTween(new TweenMax.to($('.background-text-features'), 1, {
@@ -202,12 +202,25 @@ $(document).ready(function () {
 
     var scene12 = new ScrollMagic.Scene({
         triggerElement: '#trigger12',
-        duration: 800*$SCALE,
+        duration: 1500*$SCALE,
         offset: 1400*$SCALE,
         tweenChanges: false
     })
     .setTween(new TweenMax.to($('.background-text-use-cases'), 1, {
-        y: 200*$SCALE,
+        y: 400*$SCALE,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+    var scene13 = new ScrollMagic.Scene({
+        triggerElement: '#trigger13',
+        duration: 500*$SCALE,
+        offset: 1750*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($line1, 1, {
+        strokeDashoffset: $LINE1_LENGTH * (1-2.596/7.0),
         ease: Linear.easeNone
     }))
     .addIndicators()

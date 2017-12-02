@@ -462,6 +462,9 @@ body {
 .pcolor, .text-brand {
   color: #10cfbd; }
 
+.features-items .fitem {
+  font-size: 1.6vw; }
+
 /**
  * Clear inner floats
  */
@@ -565,7 +568,7 @@ body {
   font-size: 29vw; }
 
 .background-text-features {
-  top: 100vw;
+  top: 110vw;
   font-size: 20.5vw; }
 
 .background-text-use-cases {
@@ -612,7 +615,8 @@ body {
 
 .svg-circle-in-line4 {
   top: 179.5vw;
-  left: 52.4vw; }
+  left: 52.4vw;
+  z-index: 999; }
 
 .body-text-about-tessact {
   position: absolute;
@@ -674,4 +678,10 @@ body {
   width: 40vw;
   top: 181.5vw;
   left: 40vw;
-  background: #fff; }
+  background: #fff;
+  z-index: 99; }
+
+.img-tessact {
+  width: 10vw;
+  left: 42vw;
+  top: 22vw; }

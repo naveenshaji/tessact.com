@@ -10,7 +10,7 @@
     font-size: 29vw;
 }
 .background-text-features {
-    top: 100vw;
+    top: 110vw;
     font-size: 20.5vw;
 }
 .background-text-use-cases {
@@ -63,6 +63,7 @@
     @extend .svg-circle-in-line;
     top: 179.5vw;
     left: 52.4vw;
+    z-index: 999;
 }
 .body-text-about-tessact {
     position: absolute;
@@ -125,4 +126,10 @@ body {
     top: 181.5vw;
     left: 40vw;
     background: #fff;
+    z-index: 99;
+}
+.img-tessact {
+    width: 10vw;
+    left: 42vw;
+    top: 22vw;
 }
