@@ -10,6 +10,8 @@ $(document).ready(function () {
     var $circlein3 = $('.cls-33');
     var $circleout4 = $('.cls-24');
     var $circlein4 = $('.cls-34');
+    var $circleout5 = $('.cls-25');
+    var $circlein5 = $('.cls-35');
     var controller = new ScrollMagic.Controller();
 
 
@@ -154,7 +156,7 @@ $(document).ready(function () {
 
     var scene9 = new ScrollMagic.Scene({
         triggerElement: '#trigger9',
-        duration: 500*$SCALE,
+        duration: 600*$SCALE,
         offset: 1100*$SCALE,
         tweenChanges: false
     })
@@ -181,7 +183,7 @@ $(document).ready(function () {
     var scene11 = new ScrollMagic.Scene({
         triggerElement: '#trigger11',
         duration: 150*$SCALE,
-        offset: 1600*$SCALE,
+        offset: 1700*$SCALE,
         tweenChanges: false
     })
     .setTween(new TimelineMax()
@@ -215,8 +217,8 @@ $(document).ready(function () {
 
     var scene13 = new ScrollMagic.Scene({
         triggerElement: '#trigger13',
-        duration: 500*$SCALE,
-        offset: 1750*$SCALE,
+        duration: 300*$SCALE,
+        offset: 1850*$SCALE,
         tweenChanges: false
     })
     .setTween(new TweenMax.to($line1, 1, {
@@ -225,5 +227,82 @@ $(document).ready(function () {
     }))
     .addIndicators()
     .addTo(controller);
+
+    var scene14 = new ScrollMagic.Scene({
+        triggerElement: '#trigger14',
+        duration: 150*$SCALE,
+        offset: 2150*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TimelineMax()
+    .add(TweenMax.to($circleout5, 0.25, {
+        attr: {
+            r: 28
+        },
+        ease: Linear.easeNone
+    }))
+    .add(TweenMax.to($circlein5, 0.125, {
+        attr: {
+            r: 12.5
+        },
+        ease: Linear.easeNone
+    })))
+    .addIndicators()
+    .addTo(controller);
+
+
+    var scene15 = new ScrollMagic.Scene({
+        triggerElement: '#trigger15',
+        duration: 1500*$SCALE,
+        offset: 2300*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($line1, 1, {
+        strokeDashoffset: $LINE1_LENGTH * (1-6.096/7.0),
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+
+    var scene16 = new ScrollMagic.Scene({
+        triggerElement: '#trigger16',
+        duration: 1500*$SCALE,
+        offset: 2100*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.background-text-deploy'), 1, {
+        y: 400*$SCALE,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+    var scene17 = new ScrollMagic.Scene({
+        triggerElement: '#trigger17',
+        duration: 1500*$SCALE,
+        offset: 0*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(TweenMax.to($('.img-about-w1'), 1, {
+        rotation: 360,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+    var scene18 = new ScrollMagic.Scene({
+        triggerElement: '#trigger18',
+        duration: 1500*$SCALE,
+        offset: 0*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(TweenMax.to($('.img-about-w2'), 1, {
+        rotation: -360,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
 
 })

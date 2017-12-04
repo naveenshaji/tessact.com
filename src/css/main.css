@@ -465,6 +465,9 @@ body {
 .features-items .fitem {
   font-size: 1.6vw; }
 
+.text-bold {
+  font-weight: bold; }
+
 /**
  * Clear inner floats
  */
@@ -559,6 +562,12 @@ body {
 .cls-34 {
   fill: #1a1a1a; }
 
+.cls-25 {
+  fill: #10cfbd; }
+
+.cls-35 {
+  fill: #1a1a1a; }
+
 .background-text-tessact {
   top: 8vw;
   font-size: 24vw; }
@@ -573,7 +582,11 @@ body {
 
 .background-text-use-cases {
   top: 165vw;
-  font-size: 20vw; }
+  font-size: 20.6vw; }
+
+.background-text-deploy {
+  top: 215vw;
+  font-size: 25.3vw; }
 
 .title-text {
   font-weight: bold;
@@ -599,7 +612,7 @@ body {
   left: 0;
   width: 100vw; }
 
-.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4 {
+.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4, .svg-circle-in-line5 {
   position: absolute;
   left: 31.75vw;
   height: 4vw;
@@ -618,11 +631,29 @@ body {
   left: 52.4vw;
   z-index: 999; }
 
+.svg-circle-in-line5 {
+  top: 207vw;
+  left: 51.8vw;
+  z-index: 999; }
+
 .body-text-about-tessact {
   position: absolute;
   width: 30vw;
   right: 21vw;
   top: 95vw; }
+
+.body-text-deploy {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  position: absolute;
+  top: 263vw;
+  width: 80vw;
+  left: 10vw;
+  line-height: 4vw;
+  font-weight: 400; }
+  .body-text-deploy .text-italics {
+    font-style: italic; }
 
 .svgs {
   position: absolute;
@@ -669,6 +700,21 @@ body {
   width: 40vw;
   top: 65vw; }
 
+.img-about-w1 {
+  width: 13vw;
+  top: 72vw;
+  left: 20vw; }
+
+.img-about-w2 {
+  width: 18vw;
+  left: 3vw;
+  top: 72.5vw; }
+
+.img-about-gs {
+  width: 15vw;
+  top: 78vw;
+  left: 12vw; }
+
 .img-intsearch {
   width: 40vw;
   top: 132vw;
@@ -685,3 +731,8 @@ body {
   width: 10vw;
   left: 42vw;
   top: 22vw; }
+
+.img-world {
+  width: 55vw;
+  left: 22.5vw;
+  top: 230vw; }

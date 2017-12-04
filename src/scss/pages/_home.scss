@@ -15,7 +15,11 @@
 }
 .background-text-use-cases {
     top: 165vw;
-    font-size: 20vw;
+    font-size: 20.6vw;
+}
+.background-text-deploy {
+    top: 215vw;
+    font-size: 25.3vw;
 }
 .title-text {
     font-weight: bold;
@@ -65,11 +69,31 @@
     left: 52.4vw;
     z-index: 999;
 }
+.svg-circle-in-line5 {
+    @extend .svg-circle-in-line;
+    top: 207vw;
+    left: 51.8vw;
+    z-index: 999;
+}
 .body-text-about-tessact {
     position: absolute;
     width: 30vw;
     right: 21vw;
     top: 95vw;
+}
+.body-text-deploy {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 263vw;
+    width: 80vw;
+    left: 10vw;
+    line-height: 4vw;
+    font-weight: 400;
+    .text-italics {
+        font-style: italic;
+    }
 }
 .svgs {
     position: absolute;
@@ -116,6 +140,21 @@ body {
     width: 40vw;
     top: 65vw;
 }
+.img-about-w1 {
+    width: 13vw;
+    top: 72vw;
+    left: 20vw;
+}
+.img-about-w2 {
+    width: 18vw;
+    left: 3vw;
+    top: 72.5vw;
+}
+.img-about-gs {
+    width: 15vw;
+    top: 78vw;
+    left: 12vw;
+}
 .img-intsearch {
     width: 40vw;
     top: 132vw;
@@ -132,4 +171,9 @@ body {
     width: 10vw;
     left: 42vw;
     top: 22vw;
+}
+.img-world {
+    width: 55vw;
+    left: 22.5vw;
+    top: 230vw;
 }
