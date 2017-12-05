@@ -305,4 +305,27 @@ $(document).ready(function () {
     .addTo(controller);
 
 
+    var scene19 = new ScrollMagic.Scene({
+        triggerElement: '#trigger19',
+        duration: 500*$SCALE,
+        offset: 2350*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TimelineMax()
+    .add(TweenMax.staggerTo($('.cls-26'), 0.25, {
+        attr: {
+            r: 28
+        },
+        ease: Linear.easeNone
+    },0.2))
+    .add(TweenMax.staggerTo($('.cls-36'), 0.125, {
+        attr: {
+            r: 12.5
+        },
+        ease: Linear.easeNone
+    },0.2)))
+    .addIndicators()
+    .addTo(controller);
+
+
 })

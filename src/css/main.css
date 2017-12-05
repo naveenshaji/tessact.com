@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -568,6 +569,12 @@ body {
 .cls-35 {
   fill: #1a1a1a; }
 
+.cls-26 {
+  fill: #10cfbd; }
+
+.cls-36 {
+  fill: #1a1a1a; }
+
 .background-text-tessact {
   top: 8vw;
   font-size: 24vw; }
@@ -612,7 +619,7 @@ body {
   left: 0;
   width: 100vw; }
 
-.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4, .svg-circle-in-line5 {
+.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4, .svg-circle-in-line5, .svg-circle-in-line6, .svg-circle-in-line7, .svg-circle-in-line8, .svg-circle-in-line9, .svg-circle-in-line10, .svg-circle-in-line11 {
   position: absolute;
   left: 31.75vw;
   height: 4vw;
@@ -635,6 +642,30 @@ body {
   top: 207vw;
   left: 51.8vw;
   z-index: 999; }
+
+.svg-circle-in-line6 {
+  top: 240.4vw;
+  left: 58.8vw; }
+
+.svg-circle-in-line7 {
+  top: 233.6vw;
+  left: 49.4vw; }
+
+.svg-circle-in-line8 {
+  top: 242.6vw;
+  left: 49.4vw; }
+
+.svg-circle-in-line9 {
+  top: 246vw;
+  left: 34.8vw; }
+
+.svg-circle-in-line10 {
+  top: 236.8vw;
+  left: 31.8vw; }
+
+.svg-circle-in-line11 {
+  top: 236.8vw;
+  left: 24.8vw; }
 
 .body-text-about-tessact {
   position: absolute;

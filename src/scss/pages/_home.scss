@@ -75,6 +75,37 @@
     left: 51.8vw;
     z-index: 999;
 }
+.svg-circle-in-line6 {
+    @extend .svg-circle-in-line;
+    top: 240.4vw;
+    left: 58.8vw;
+}
+.svg-circle-in-line7 {
+    @extend .svg-circle-in-line;
+    top: 233.6vw;
+    left: 49.4vw;
+}
+.svg-circle-in-line8 {
+    @extend .svg-circle-in-line;
+    top: 242.6vw;
+    left: 49.4vw;
+}
+.svg-circle-in-line9 {
+    @extend .svg-circle-in-line;
+    top: 246vw;
+    left: 34.8vw;
+}
+.svg-circle-in-line10 {
+    @extend .svg-circle-in-line;
+    top: 236.8vw;
+    left: 31.8vw;
+}
+.svg-circle-in-line11 {
+    @extend .svg-circle-in-line;
+    top: 236.8vw;
+    left: 24.8vw;
+}
+
 .body-text-about-tessact {
     position: absolute;
     width: 30vw;
