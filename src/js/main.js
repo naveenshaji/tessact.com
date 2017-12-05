@@ -340,5 +340,18 @@ $(document).ready(function () {
     .addIndicators()
     .addTo(controller);
 
+    var scene20 = new ScrollMagic.Scene({
+        triggerElement: '#trigger20',
+        duration: 1500*$SCALE,
+        offset: 2500*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.body-text-deploy'), 1, {
+        scale: 1.2,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
 
 })
