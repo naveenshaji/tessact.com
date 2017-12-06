@@ -719,30 +719,30 @@ body {
 
 .features-items > div {
   position: absolute;
-  top: 160vw;
+  top: 155vw;
   transform: rotate(-45deg);
-  min-width: 400px;
+  min-width: 300px;
   text-align: right;
   font-weight: bold;
   color: #999; }
 
 .fitem1 {
-  left: -3vw; }
+  left: 5vw; }
 
 .fitem2 {
-  left: 7vw; }
+  left: 15vw; }
 
 .fitem3 {
-  left: 17vw; }
+  left: 25vw; }
 
 .fitem4 {
-  left: 27vw; }
+  left: 35vw; }
 
 .fitem5 {
-  left: 37vw; }
+  left: 45vw; }
 
 .fitem6 {
-  left: 47vw; }
+  left: 55vw; }
 
 .images > img {
   position: absolute; }
@@ -766,11 +766,6 @@ body {
   top: 78vw;
   left: 12vw; }
 
-.img-intsearch {
-  width: 40vw;
-  top: 132vw;
-  left: 30vw; }
-
 .img-trigger {
   width: 40vw;
   top: 181.5vw;
@@ -780,11 +775,12 @@ body {
 
 .img-tessactvid {
   width: 30vw;
-  left: 42vw;
+  left: 41vw;
   top: 12vw;
   position: absolute;
   background: #fff;
-  min-height: 30vw; }
+  min-height: 30vw;
+  z-index: -11; }
 
 .img-world {
   width: 55vw;
@@ -820,6 +816,7 @@ body {
   background: #10cfbd; }
 
 .uc-item {
+  color: #666;
   position: relative;
   left: 3vw;
   margin-top: 2vw;
@@ -883,3 +880,18 @@ body {
 
 .fb6 {
   left: 75vw; }
+
+.vis-none {
+  opacity: 0; }
+
+.features-text {
+  position: absolute;
+  width: 40vw;
+  top: 128vw;
+  font-size: 1vw;
+  font-weight: 400;
+  color: #666;
+  line-height: 2vw;
+  left: 30vw; }
+  .features-text .text {
+    margin-top: 3vw; }
