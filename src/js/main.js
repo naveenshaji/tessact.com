@@ -409,6 +409,20 @@ $(document).ready(function () {
     .addTo(controller);
 
 
+    var scene25 = new ScrollMagic.Scene({
+        triggerElement: '#trigger25',
+        duration: 1500*$SCALE,
+        offset: 3200*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.background-text-contact'), 1, {
+        y: 400*$SCALE,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+
 })
 $('.uc-item').click(function(){
     $('.uc-item').removeClass('active');
