@@ -354,4 +354,18 @@ $(document).ready(function () {
     .addTo(controller);
 
 
+    var scene21 = new ScrollMagic.Scene({
+        triggerElement: '#trigger21',
+        duration: 1500*$SCALE,
+        offset: 0*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.img-tessactvid'), 1, {
+        scale: 1.5,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+
 })

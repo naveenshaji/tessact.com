@@ -203,10 +203,13 @@ body {
     background: #fff;
     z-index: 99;
 }
-.img-tessact {
-    width: 10vw;
+.img-tessactvid {
+    width: 30vw;
     left: 42vw;
-    top: 22vw;
+    top: 12vw;
+    position: absolute;
+    background: #fff;
+    min-height: 30vw;
 }
 .img-world {
     width: 55vw;
