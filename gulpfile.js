@@ -26,7 +26,7 @@ gulp.task('sass', function() {
     }))
 })
 gulp.task('images', function(){
-    return gulp.src('src/images/**/*.+(png|jpg|gif|svg)')
+    return gulp.src('src/images/**/*.+(png|jpg|gif|svg|mp4)')
     .pipe(cache(imagemin()))
     .pipe(gulp.dest('dist/images'))
 })
