@@ -381,4 +381,36 @@ $(document).ready(function () {
     .addTo(controller);
 
 
+    var scene23 = new ScrollMagic.Scene({
+        triggerElement: '#trigger23',
+        duration: 1500*$SCALE,
+        offset: 1400*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.uc-items'), 1, {
+        y: -400*$SCALE,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+
+    var scene24 = new ScrollMagic.Scene({
+        triggerElement: '#trigger24',
+        duration: 500*$SCALE,
+        offset: 1000*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.staggerFrom($('.f-blob'), 1, {
+        left: "-50",
+        ease: Linear.easeNone
+    }, 0.2))
+    .addIndicators()
+    .addTo(controller);
+
+
 })
+$('.uc-item').click(function(){
+    $('.uc-item').removeClass('active');
+    $(this).addClass('active');
+});

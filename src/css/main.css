@@ -715,30 +715,30 @@ body {
 
 .features-items > div {
   position: absolute;
-  top: 154vw;
+  top: 160vw;
   transform: rotate(-45deg);
-  min-width: 200px;
+  min-width: 400px;
   text-align: right;
   font-weight: bold;
   color: #999; }
 
 .fitem1 {
-  left: 10vw; }
+  left: -3vw; }
 
 .fitem2 {
-  left: 20vw; }
+  left: 7vw; }
 
 .fitem3 {
-  left: 30vw; }
+  left: 17vw; }
 
 .fitem4 {
-  left: 40vw; }
+  left: 27vw; }
 
 .fitem5 {
-  left: 50vw; }
+  left: 37vw; }
 
 .fitem6 {
-  left: 60vw; }
+  left: 47vw; }
 
 .images > img {
   position: absolute; }
@@ -804,8 +804,9 @@ body {
 
 .uc-items {
   position: absolute;
-  top: 190vw;
-  left: 10vw; }
+  top: 200vw;
+  left: 10vw;
+  z-index: 99; }
 
 .uc-line {
   position: absolute;
@@ -817,7 +818,14 @@ body {
 .uc-item {
   position: relative;
   left: 3vw;
-  margin-top: 2vw; }
+  margin-top: 2vw;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+
+.uc-item:hover .uc-blob {
+  height: 1.5vw;
+  width: 1.5vw;
+  left: -2.75vw; }
 
 .uc-item.active {
   font-size: 3vw;
@@ -836,7 +844,38 @@ body {
   border-radius: 50%;
   position: absolute;
   left: -2.5vw;
-  top: 0.5vw; }
+  top: 0.5vw;
+  transition: all 0.3s ease; }
 
 .uc-text {
   position: relative; }
+
+.f-blobs {
+  position: absolute;
+  top: 146vw;
+  left: 0vw; }
+
+.f-blob {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background: #fc4799; }
+
+.fb1 {
+  left: 25vw; }
+
+.fb2 {
+  left: 35vw; }
+
+.fb3 {
+  left: 45vw; }
+
+.fb4 {
+  left: 55vw; }
+
+.fb5 {
+  left: 65vw; }
+
+.fb6 {
+  left: 75vw; }
