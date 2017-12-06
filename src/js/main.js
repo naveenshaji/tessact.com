@@ -428,3 +428,10 @@ $('.uc-item').click(function(){
     $('.uc-item').removeClass('active');
     $(this).addClass('active');
 });
+$('.fitem').click(function(){
+    $('.fitem').removeClass('active');
+    $('.f-blob').removeClass('active');
+    $(this).addClass('active');
+    var ii=$(this).attr('data-index');
+    $('.fb'+ii).addClass('active');
+});
