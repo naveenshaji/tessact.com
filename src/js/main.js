@@ -99,7 +99,7 @@ $(document).ready(function () {
         offset: 500*$SCALE,
         tweenChanges: false
     })
-    .setTween(new TweenMax.to($('.body-text-about-tessact'), 1, {
+    .setTween(new TweenMax.to($('.body-text-about-trigger'), 1, {
         y: -300,
         ease: Linear.easeNone
     }))
@@ -362,6 +362,19 @@ $(document).ready(function () {
     })
     .setTween(new TweenMax.to($('.img-tessactvid'), 1, {
         scale: 1.5,
+        ease: Linear.easeNone
+    }))
+    .addIndicators()
+    .addTo(controller);
+
+    var scene22 = new ScrollMagic.Scene({
+        triggerElement: '#trigger22',
+        duration: 1000*$SCALE,
+        offset: 0*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TweenMax.to($('.body-text-about-tessact'), 1, {
+        y: -300,
         ease: Linear.easeNone
     }))
     .addIndicators()

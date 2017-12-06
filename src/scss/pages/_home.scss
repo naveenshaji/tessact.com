@@ -111,11 +111,22 @@
     left: 24.8vw;
 }
 
-.body-text-about-tessact {
+.body-text-about-trigger {
     position: absolute;
     width: 30vw;
     right: 21vw;
     top: 95vw;
+}
+.body-text-about-tessact {
+    position: absolute;
+    width: 50vw;
+    right: 21vw;
+    top: 45vw;
+    z-index: 3;
+    background: #ffffff;
+    padding: 20px;
+    padding-left: 40px;
+    border-left: 4px solid #3b4751;
 }
 .body-text-deploy {
     text-align: center;
