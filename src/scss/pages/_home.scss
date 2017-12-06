@@ -242,3 +242,43 @@ body {
     left: 74vw;
     width: 14vw;
 }
+.uc-items {
+    position: absolute;
+    top: 190vw;
+    left: 10vw;
+}
+.uc-line {
+    position: absolute;
+    left: 1vw;
+    height: 20vw;
+    width: 2px;
+    background: #10cfbd;
+}
+.uc-item {
+    position: relative;
+    left: 3vw;
+    margin-top: 2vw;
+}
+.uc-item.active {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #10cfbd;
+    .uc-blob {
+        top: 1vw;
+        left: -3vw;
+        height: 2vw;
+        width: 2vw;
+    }
+}
+.uc-blob {
+    background: #fc4799;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    position: absolute;
+    left: -2.5vw;
+    top: 0.5vw;
+}
+.uc-text {
+    position: relative;
+}
