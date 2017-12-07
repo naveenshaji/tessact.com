@@ -889,9 +889,17 @@ body {
 .uc-line {
   position: absolute;
   left: 1vw;
-  height: 20vw;
+  height: 28vw;
   width: 2px;
   background: #10cfbd; }
+
+.uc-expand {
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: 1vw;
+  width: 20vw;
+  transition: all 0.3s ease; }
 
 .uc-item {
   color: #666;
@@ -906,15 +914,22 @@ body {
   width: 1.5vw;
   left: -2.75vw; }
 
-.uc-item.active {
-  font-size: 3vw;
+.uc-text {
+  transition: all 0.3s ease; }
+
+.uc-item.active .uc-expand {
+  min-height: 5vw; }
+
+.uc-item.active .uc-text {
+  font-size: 2.7vw;
   font-weight: bold;
   color: #10cfbd; }
-  .uc-item.active .uc-blob {
-    top: 1vw;
-    left: -3vw;
-    height: 2vw;
-    width: 2vw; }
+
+.uc-item.active .uc-blob {
+  top: 1vw;
+  left: -3vw;
+  height: 2vw;
+  width: 2vw; }
 
 .uc-blob {
   background: #fc4799;
