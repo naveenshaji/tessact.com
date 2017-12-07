@@ -456,7 +456,9 @@ $('.uc-item').click(function(){
 $('.fitem').click(function(){
     $('.fitem').removeClass('active');
     $('.f-blob').removeClass('active');
+    $('.ft').removeClass('active');
     $(this).addClass('active');
     var ii=$(this).attr('data-index');
     $('.fb'+ii).addClass('active');
+    $('.ft'+ii).addClass('active');
 });

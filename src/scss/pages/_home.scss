@@ -257,7 +257,7 @@ body {
 .img-trigger {
     width: 40vw;
     top: 181.5vw;
-    left: 40vw;
+    left: 45vw;
     background: #fff;
     z-index: 99;
 }
@@ -299,17 +299,17 @@ body {
 .uc-line {
     position: absolute;
     left: 1vw;
-    height: 28vw;
+    height: 35vw;
     width: 2px;
     background: #10cfbd;
 }
 .uc-expand {
-    min-height: 0;
-    height: 0;
+    max-height: 0;
     overflow: hidden;
     font-size: 1vw;
     width: 20vw;
     transition: all 0.3s ease;
+    line-height: 1.8vw;
 }
 .uc-item {
     color: #666;
@@ -329,7 +329,7 @@ body {
 }
 .uc-item.active {
     .uc-expand {
-        min-height: 5vw;
+        max-height: 20vw;
     }
     .uc-text {
         font-size: 2.7vw;
@@ -367,10 +367,9 @@ body {
     height: 1vw;
     border-radius: 50%;
     background: #fc4799;
+    transition: transform 0.3s ease;
     &.active {
-        height: 2vw;
-        width: 2vw;
-        top: -0.5vw;
+        transform: scale(2);
     }
 }
 .fb1 {
@@ -394,6 +393,9 @@ body {
 .vis-none {
     opacity: 0;
 }
+.features-text>div {
+    display: none;
+}
 .features-text {
     position: absolute;
     width: 40vw;
@@ -405,5 +407,8 @@ body {
     left: 30vw;
     .text {
         margin-top: 3vw;
+    }
+    .active {
+        display: block;
     }
 }
