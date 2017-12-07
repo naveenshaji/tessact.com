@@ -1,3 +1,25 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+.footer {
+    position: absolute;
+    top: 390vw;
+    background: #3b4751;
+    height: 20vw;
+    width: 100%;
+    color: #f5f5f5;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+.foot-container {
+    position: absolute;
+    width: 80vw;
+    left: 10vw;
+}
+.footer-left {
+    width: 33vw;
+    display: inline-block;
+    height: 20vw;
+    padding: 4vw;
+    img {
+        width: 10vw;
+        margin: auto;
+    }
+}

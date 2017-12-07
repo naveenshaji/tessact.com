@@ -114,6 +114,11 @@
     top: 236.8vw;
     left: 24.8vw;
 }
+.svg-circle-in-line12 {
+    @extend .svg-circle-in-line;
+    top: 358.8vw;
+    left: 88.6vw;
+}
 
 .body-text-about-trigger {
     position: absolute;

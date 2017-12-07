@@ -12,6 +12,8 @@ $(document).ready(function () {
     var $circlein4 = $('.cls-34');
     var $circleout5 = $('.cls-25');
     var $circlein5 = $('.cls-35');
+    var $circleout6 = $('.cls-212');
+    var $circlein6 = $('.cls-312');
     var controller = new ScrollMagic.Controller();
 
 
@@ -40,7 +42,7 @@ $(document).ready(function () {
             },
             ease: Linear.easeNone
         })))
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     var scene2 = new ScrollMagic.Scene({
@@ -65,7 +67,7 @@ $(document).ready(function () {
             },
             ease: Linear.easeNone
         })))
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     var scene3 = new ScrollMagic.Scene({
@@ -77,7 +79,7 @@ $(document).ready(function () {
             y: 300,
             ease: Linear.easeNone
         }))
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     var scene4 = new ScrollMagic.Scene({
@@ -90,7 +92,7 @@ $(document).ready(function () {
             y: 300,
             ease: Linear.easeNone
         }))
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller);
 
     var scene5 = new ScrollMagic.Scene({
@@ -103,7 +105,7 @@ $(document).ready(function () {
         y: -300,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene6 = new ScrollMagic.Scene({
@@ -116,7 +118,7 @@ $(document).ready(function () {
         strokeDashoffset: $LINE1_LENGTH * (1-1.27/7.0),
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene7 = new ScrollMagic.Scene({
@@ -129,7 +131,7 @@ $(document).ready(function () {
         y: 400,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene8 = new ScrollMagic.Scene({
@@ -151,7 +153,7 @@ $(document).ready(function () {
         },
         ease: Linear.easeNone
     })))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene9 = new ScrollMagic.Scene({
@@ -164,7 +166,7 @@ $(document).ready(function () {
         strokeDashoffset: $LINE1_LENGTH * (1-2.4/7.0),
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene10 = new ScrollMagic.Scene({
@@ -177,7 +179,7 @@ $(document).ready(function () {
         left: "+=900",
         ease: Linear.easeNone
     }, 0.2))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene11 = new ScrollMagic.Scene({
@@ -199,7 +201,7 @@ $(document).ready(function () {
         },
         ease: Linear.easeNone
     })))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene12 = new ScrollMagic.Scene({
@@ -212,7 +214,7 @@ $(document).ready(function () {
         y: 400*$SCALE,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene13 = new ScrollMagic.Scene({
@@ -225,7 +227,7 @@ $(document).ready(function () {
         strokeDashoffset: $LINE1_LENGTH * (1-2.596/7.0),
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene14 = new ScrollMagic.Scene({
@@ -247,7 +249,7 @@ $(document).ready(function () {
         },
         ease: Linear.easeNone
     })))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -261,7 +263,7 @@ $(document).ready(function () {
         strokeDashoffset: $LINE1_LENGTH * (1-6.096/7.0),
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -275,7 +277,7 @@ $(document).ready(function () {
         y: 400*$SCALE,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene17 = new ScrollMagic.Scene({
@@ -288,7 +290,7 @@ $(document).ready(function () {
         rotation: 360,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene18 = new ScrollMagic.Scene({
@@ -301,7 +303,7 @@ $(document).ready(function () {
         rotation: -360,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -324,7 +326,7 @@ $(document).ready(function () {
         },
         ease: Linear.easeNone
     },0.2)))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene20 = new ScrollMagic.Scene({
@@ -337,7 +339,7 @@ $(document).ready(function () {
         y: 400*$SCALE,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene20 = new ScrollMagic.Scene({
@@ -350,7 +352,7 @@ $(document).ready(function () {
         scale: 1.2,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -364,7 +366,7 @@ $(document).ready(function () {
         scale: 1.5,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
     var scene22 = new ScrollMagic.Scene({
@@ -377,7 +379,7 @@ $(document).ready(function () {
         y: -300,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -391,7 +393,7 @@ $(document).ready(function () {
         y: -400*$SCALE,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -405,7 +407,7 @@ $(document).ready(function () {
         left: "-50",
         ease: Linear.easeNone
     }, 0.2))
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 
 
@@ -419,7 +421,30 @@ $(document).ready(function () {
         y: 400*$SCALE,
         ease: Linear.easeNone
     }))
-    .addIndicators()
+    // .addIndicators()
+    .addTo(controller);
+
+
+    var scene26 = new ScrollMagic.Scene({
+        triggerElement: '#trigger26',
+        duration: 150*$SCALE,
+        offset: 4000*$SCALE,
+        tweenChanges: false
+    })
+    .setTween(new TimelineMax()
+    .add(TweenMax.to($circleout6, 0.25, {
+        attr: {
+            r: 28
+        },
+        ease: Linear.easeNone
+    }))
+    .add(TweenMax.to($circlein6, 0.125, {
+        attr: {
+            r: 12.5
+        },
+        ease: Linear.easeNone
+    })))
+    // .addIndicators()
     .addTo(controller);
 
 

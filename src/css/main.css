@@ -524,6 +524,30 @@ body {
   position: absolute;
   width: 1px; }
 
+.footer {
+  position: absolute;
+  top: 390vw;
+  background: #3b4751;
+  height: 20vw;
+  width: 100%;
+  color: #f5f5f5;
+  font-size: 1vw;
+  line-height: 2vw; }
+
+.foot-container {
+  position: absolute;
+  width: 80vw;
+  left: 10vw; }
+
+.footer-left {
+  width: 33vw;
+  display: inline-block;
+  height: 20vw;
+  padding: 4vw; }
+  .footer-left img {
+    width: 10vw;
+    margin: auto; }
+
 .triggers {
   position: absolute;
   top: 50vh; }
@@ -573,6 +597,12 @@ body {
   fill: #10cfbd; }
 
 .cls-36 {
+  fill: #1a1a1a; }
+
+.cls-212 {
+  fill: #10cfbd; }
+
+.cls-312 {
   fill: #1a1a1a; }
 
 .background-text-tessact {
@@ -628,7 +658,7 @@ body {
   left: 0;
   width: 100vw; }
 
-.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4, .svg-circle-in-line5, .svg-circle-in-line6, .svg-circle-in-line7, .svg-circle-in-line8, .svg-circle-in-line9, .svg-circle-in-line10, .svg-circle-in-line11 {
+.svg-circle-in-line, .svg-circle-in-line2, .svg-circle-in-line3, .svg-circle-in-line4, .svg-circle-in-line5, .svg-circle-in-line6, .svg-circle-in-line7, .svg-circle-in-line8, .svg-circle-in-line9, .svg-circle-in-line10, .svg-circle-in-line11, .svg-circle-in-line12 {
   position: absolute;
   left: 31.75vw;
   height: 4vw;
@@ -675,6 +705,10 @@ body {
 .svg-circle-in-line11 {
   top: 236.8vw;
   left: 24.8vw; }
+
+.svg-circle-in-line12 {
+  top: 358.8vw;
+  left: 88.6vw; }
 
 .body-text-about-trigger {
   position: absolute;
