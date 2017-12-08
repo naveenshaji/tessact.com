@@ -490,3 +490,29 @@ body {
         padding: 1vw;
     }
 }
+.text-contact {
+    position: absolute;
+    top: 350vw;
+    left: 15vw;
+    font-size: 4vw;
+    .text-brand {
+        left: 7.8vw;
+        position: relative;
+    }
+}
+.contact-sites {
+    position: absolute;
+    top: 360vw;
+    left: 15vw;
+    .contact-circle {
+        width: 4vw;
+        height: 4vw;
+        display: inline-block;
+        background: #10cfbd;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 1vw;
+        color: #fff;
+        margin-left: 1vw;
+    }
+}
