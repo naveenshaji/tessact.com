@@ -261,6 +261,61 @@ body {
     background: #fff;
     z-index: 99;
 }
+.ft1 {
+    .img-facetag {
+        width: 20vw;
+    }
+    .text {
+        width: 20vw;
+        left: 22vw;
+        top: -2vw;
+        position: absolute;
+    }
+}
+.ft2 {
+    .img-objtag{
+        width: 20vw;
+    }
+    .text {
+        width: 20vw;
+        left: 22vw;
+        top: -2vw;
+        position: absolute;
+    }
+}
+.ft3 {
+    .img-keygen {
+        width: 30vw;
+        left: 18vw;
+        top: -1vw;
+        position: absolute;
+    }
+    .text {
+        width: 15vw;
+    }
+}
+.ft5 {
+    .img-comptag {
+        width: 20vw;
+    }
+    .text {
+        width: 20vw;
+        left: 22vw;
+        top: -2vw;
+        position: absolute;
+    }
+}
+.ft6 {
+    .img-subtool {
+        width: 20vw;
+    }
+    .text {
+        width: 20vw;
+        left: 22vw;
+        top: -2vw;
+        position: absolute;
+    }
+}
 .img-tessactvid {
     width: 30vw;
     left: 41vw;
@@ -269,6 +324,7 @@ body {
     background: #fff;
     min-height: 30vw;
     z-index: -11;
+    opacity: 0.8;
 }
 .img-world {
     width: 55vw;
