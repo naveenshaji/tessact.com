@@ -640,10 +640,10 @@ body {
   font-size: 3vw;
   line-height: 1.6vw;
   position: absolute;
-  left: 10vw;
+  left: 6vw;
   top: 25vw; }
-  .title-text .text-brand {
-    font-size: 1.2vw; }
+  .title-text img {
+    width: 20vw; }
 
 .text-about-us {
   left: 49vw;
