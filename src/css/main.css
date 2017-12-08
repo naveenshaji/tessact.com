@@ -642,6 +642,8 @@ body {
   position: absolute;
   left: 6vw;
   top: 25vw; }
+  .title-text .text-brand {
+    font-size: 1.2vw; }
   .title-text img {
     width: 20vw; }
 
