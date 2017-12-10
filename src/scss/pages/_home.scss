@@ -355,6 +355,9 @@ body {
     left: 10vw;
     z-index: 99;
 }
+.uc-text {
+    font-size: 2vw;
+}
 .uc-line {
     position: absolute;
     left: 1vw;
@@ -514,5 +517,99 @@ body {
         padding-top: 1vw;
         color: #fff;
         margin-left: 1vw;
+        font-size: 1vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .svg-fullheight-line {
+        display: none;
+    }
+    .background-text {
+        transform: rotate(90deg);
+        position: absolute;
+    }
+    .background-text-tessact {
+        top: 30vw;
+        left: -30vw;
+        .vis-none {
+            opacity: 1;
+        }
+    }
+    .title-text {
+        top: 60vw;
+        z-index: 22;
+        left: 0;
+    }
+    .title-text > img {
+        position: absolute;
+        width: 60vw;
+        left: 20vw;
+    }
+    .img-tessactvid {
+        width: 40vw;
+        left: 30vw;
+    }
+    .body-text {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    .body-text-about-tessact {
+        background: none;
+        top: 85vw;
+        right: auto;
+        width: 80vw;
+        left: 10vw;
+    }
+    .img-about-w1, .img-about-w2, .img-about-gs, .text-contact, .text-features, .uc-items, .img-trigger, .contact-content {
+        display: none;
+    }
+    .features-text {
+        width: 80vw;
+        left: 10vw;
+        display: none;
+    }
+    .contact {
+        width: 80vw;
+        left: 10vw;
+        font-size: 4vw;
+    }
+    .footer {
+        display: none;
+    }
+    .fitem {
+        transform: none!important;
+        display: none;
+    }
+    .background-text-about-us{
+        top: 130vw;
+        left: -30vw;
+    }
+    .background-text-features {
+        top: 255vw;
+        left: -30vw;
+    }
+    .body-text-about-trigger {
+        width: 80vw;
+        left: 10vw;
+        top: 180vw;
+    }
+    .title-text {
+        font-size: 7vw;
+        line-height: 5vw;
+        .text-brand {
+            font-size: 4vw;
+        }
+    }
+    .text-about-us {
+        top: 160vw;
+        left: 40vw;
+    }
+    .img-about {
+        top: 150vw;
+        width: 20vw;
+        left: 15vw;
+    }
+    .uc-items {
+        top: 300vw;
     }
 }
