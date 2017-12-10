@@ -31,8 +31,8 @@ gulp.task('images', function(){
     .pipe(gulp.dest('dist/images'))
 })
 gulp.task('fonts', function() {
-    return gulp.src('src/fonts/**/*')
-    .pipe(gulp.dest('dist/fonts'))
+    return gulp.src('src/font/**/*')
+    .pipe(gulp.dest('dist/font'))
 })
 gulp.task('clean:dist', function() {
     return del.sync('dist');
