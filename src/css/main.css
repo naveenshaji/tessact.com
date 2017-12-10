@@ -549,6 +549,17 @@ body {
     margin: auto;
     margin-bottom: 1vw; }
 
+.btn {
+  text-decoration: none;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: relative;
+  top: 2vw;
+  left: 27vw;
+  background: #10cfbd;
+  color: #fff; }
+
 .triggers {
   position: absolute;
   top: 50vh; }
