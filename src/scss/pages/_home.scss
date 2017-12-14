@@ -561,7 +561,7 @@ body {
         width: 80vw;
         left: 10vw;
     }
-    .img-about-w1, .img-about-w2, .img-about-gs, .text-contact, .text-features, .uc-items, .img-trigger, .contact-content {
+    .img-about-w1, .img-about-w2, .img-about-gs, .text-contact, .text-features, .img-trigger, .contact-content {
         display: none;
     }
     .features-text {
@@ -592,12 +592,12 @@ body {
         }
     }
     .img-partner1, .img-partner2, .img-partner3 {
-        top: 600vw;
+        top: 700vw;
     }
     .contact {
         width: 80vw;
         left: 10vw;
-        top: 620vw;
+        top: 720vw;
         font-size: 2vw;
     }
     .footer {
@@ -644,5 +644,19 @@ body {
     }
     .body-text-deploy {
         top: 275vw;
+    }
+    .uc-items {
+        top: 600vw;
+        .uc-expand{
+            width: 80vw;
+            font-size: 3vw;
+            line-height: 5vw;
+        }
+        .uc-item-head {
+            font-size: 7vw;
+        }
+        .uc-line {
+            height: 70vw;
+        }
     }
 }
