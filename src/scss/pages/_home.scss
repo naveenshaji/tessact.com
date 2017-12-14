@@ -567,12 +567,38 @@ body {
     .features-text {
         width: 80vw;
         left: 10vw;
-        display: none;
+        top: 300vw;
+        display: block;
+    }
+    .ft {
+        display: block!important;
+        margin-bottom: 5vw;
+        text-align: center;
+        img {
+            width: 40vw!important;
+        }
+        .text {
+            font-size: 3vw;
+            line-height: 5vw;
+            width: 80vw;
+            left: 40vw;
+            position: static!important;
+        }
+    }
+    .ft3 {
+        position: static!important;
+        img {
+            position: static!important;
+        }
+    }
+    .img-partner1, .img-partner2, .img-partner3 {
+        top: 600vw;
     }
     .contact {
         width: 80vw;
         left: 10vw;
-        font-size: 4vw;
+        top: 620vw;
+        font-size: 2vw;
     }
     .footer {
         display: none;
