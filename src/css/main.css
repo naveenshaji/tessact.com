@@ -1192,4 +1192,8 @@ body {
     width: 20vw;
     left: 15vw; }
   .uc-items {
-    top: 300vw; } }
+    top: 300vw; }
+  .img-world {
+    top: 240vw; }
+  .body-text-deploy {
+    top: 275vw; } }
