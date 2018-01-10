@@ -561,7 +561,12 @@ body {
   color: #fff; }
 
 .btn-submit {
-  width: 7vw !important; }
+  cursor: pointer;
+  width: 7vw !important;
+  transition: all 0.3s ease; }
+
+.btn-submit:hover {
+  transform: scale(1.1); }
 
 .triggers {
   position: absolute;

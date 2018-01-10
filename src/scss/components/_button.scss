@@ -10,5 +10,10 @@
     color: #fff;
 }
 .btn-submit {
+    cursor: pointer;
     width: 7vw!important;
+    transition: all 0.3s ease;
+}
+.btn-submit:hover {
+    transform: scale(1.1);
 }
