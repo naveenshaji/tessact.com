@@ -560,6 +560,9 @@ body {
   background: #10cfbd;
   color: #fff; }
 
+.btn-submit {
+  width: 7vw !important; }
+
 .triggers {
   position: absolute;
   top: 50vh; }

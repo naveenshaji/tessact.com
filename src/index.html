@@ -254,16 +254,16 @@
         </div>
         <div class="contact">
             <div class="contact-inner">
-                <form>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Organization Name">
-                    <input type="text" placeholder="Country">
-                    <input type="text" placeholder="Designation">
-                    <input type="text" placeholder="Email ID">
-                    <input type="text" placeholder="Office Telephone">
-                    <input type="text" placeholder="Mobile Phone">
-                    <textarea placeholder="Request / Feedback Details"></textarea>
-                    <a class="btn btn-submit">SUBMIT</a>
+                <form action="https://formspree.io/contact@tessact.com" method="POST">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="organization_name" placeholder="Organization Name">
+                    <input type="text" name="country" placeholder="Country">
+                    <input type="text" name="designation" placeholder="Designation">
+                    <input type="text" name="_replyto" placeholder="Email ID">
+                    <input type="text" name="office_tel" placeholder="Office Telephone">
+                    <input type="text" name="mobile" placeholder="Mobile Phone">
+                    <textarea name="message" placeholder="Request / Feedback Details"></textarea>
+                    <input type="submit" value="SUBMIT" class="btn btn-submit">
                 </form>
             </div>
         </div>
